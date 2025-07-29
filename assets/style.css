@@ -30,7 +30,7 @@ body::before {
     border-radius:10px;
     box-shadow:0 5px 15px rgba(0,0,0,0.3);
     max-width: 600px;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 .contenedor .logo-rednano {
@@ -106,12 +106,6 @@ p {
     transform: scale(1.1);
     background-color: #1EC94D;
     box-shadow: 0 0 15px #25D366;
-}
-
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); box-shadow: 0 0 15px #25D366; }
-    100% { transform: scale(1); }
 }
 
 .resaltado {
@@ -263,17 +257,6 @@ p {
   border: 1px solid #333;
 }
 
-@keyframes desplazarLogo {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(20%); }
-  100% { transform: translateY(0); }
-}
-
-@keyframes deslizar {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
 .seccion-opiniones {
   margin-top: 30px;
   text-align: center;
@@ -302,11 +285,6 @@ p {
   object-fit: cover;
   border: 1px solid #333;
   border-radius: 10px;
-}
-
-@keyframes deslizar {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
 }
 
 .lightbox {
@@ -364,6 +342,28 @@ body::after {
 }
 
 @keyframes mover-premios {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes desplazarLogo {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(10%); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes deslizar {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); box-shadow: 0 0 15px #25D366; }
+    100% { transform: scale(1); }
+}
+
+@keyframes deslizar {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
