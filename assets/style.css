@@ -292,7 +292,6 @@ p {
 }
 
 .lightbox {
-  display: none;
   position: fixed;
   z-index: 1000;
   top: 0;
@@ -302,6 +301,7 @@ p {
   background: rgba(0,0,0,0.85);
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 .lightbox img {
