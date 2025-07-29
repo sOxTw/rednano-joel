@@ -33,7 +33,7 @@ body::before {
     margin: 10px;
 }
 
-.contenedor img {
+.contenedor .logo-rednano {
   animation: desplazarLogo 2s infinite;
 }
 
