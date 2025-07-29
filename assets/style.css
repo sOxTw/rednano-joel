@@ -34,7 +34,7 @@ body::before {
 }
 
 .contenedor img {
-  animation: desplaza 2s infinite;
+  animation: desplazarLogo 2s infinite;
 }
 
 
@@ -88,7 +88,7 @@ p {
         font-size: 1.2rem;
         text-align: center;
     }
-    
+
     .boton-whatsapp
     {
         font-size: 1rem;
@@ -263,7 +263,7 @@ p {
   border: 1px solid #333;
 }
 
-@keyframes desplaza {
+@keyframes desplazarLogo {
   0% { transform: translateY(0); }
   50% { transform: translateY(20%); }
   100% { transform: translateY(0); }
