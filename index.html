@@ -137,10 +137,12 @@
   function ampliarImagen(src) {
     imagenAmpliada.src = src;
     lightbox.style.display = 'flex';
+    html.style.overflow = hidden;
   }
-
+  
   function cerrarLightbox() {
     lightbox.style.display = 'none';
+    html.style.overflow = 'none';
     imagenAmpliada.src = '';
   }
 
