@@ -291,7 +291,7 @@ p {
   border-radius: 10px;
 }
 
-/* .lightbox {
+.lightbox {
   display: none;
   position: fixed;
   z-index: 1000;
@@ -309,9 +309,9 @@ p {
   max-height: 92%;
   border-radius: 10px;
   box-shadow: 0 0 10px #771188;
-} */
+}
 
-.lightbox {
+/* .lightbox {
     display: flex;
     position: relative;
     max-width: 90%;
@@ -323,10 +323,10 @@ p {
 }
 
 .lightbox img {
-    max-width: 90%; /* Ajusta el tamaño máximo de la imagen ampliada */
-    max-height: 90vh; /* Ajusta la altura máxima */
-    object-fit: contain; /* Asegura que la imagen se vea completa */
-}
+    max-width: 90%; 
+    max-height: 90vh; 
+    object-fit: contain; 
+}*/
 
 .lightbox .cerrar {
   position: absolute;
