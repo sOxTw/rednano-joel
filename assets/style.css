@@ -5,9 +5,9 @@ body, html {
     padding: 0;
     min-height: 100%;
     text-align: center;
-    background-color: #000;
     background: url('./img/logo-nano.png') no-repeat center center;
     background-size: contain;
+    backdrop-filter: blur(5);
     display: block;
 }
 
@@ -73,6 +73,7 @@ p {
     {
         display: flex;
         background: url('./img/logo-nano.png') no-repeat center center;
+        background-color: #000;
         background-size: contain;
         align-items: center;
         justify-content: center;
@@ -180,7 +181,8 @@ p {
 }
 
 .logos-plataformas img:hover {
-  filter: brightness(1);
+  filter: brightness(1.5);
+  scale: 1.05;
 }
 
 
@@ -348,7 +350,7 @@ body::after {
 
 @keyframes desplazarLogo {
   0% { transform: translateY(0); }
-  50% { transform: translateY(10%); }
+  50% { transform: translateY(8%); }
   100% { transform: translateY(0); }
 }
 
