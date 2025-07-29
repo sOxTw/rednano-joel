@@ -6,7 +6,7 @@ body, html {
     min-height: 100%;
     text-align: center;
     background: url('assets/img/logo-nano.png') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     display: block;
 }
 
@@ -61,25 +61,10 @@ p {
     margin-right:5px;
 }
 
-.aviso-privacidad {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.aviso-privacidad a {
-    color: white;
-    background: rgba(0,0,0,0.6);
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 13px;
-    display: inline-block;
-}
-
 @media(max-width:768px){
     body,html {
-        background:url('fondo-mobile.webp') no-repeat center center;
-        background-size:cover;
+        background: url('assets/img/logo-nano.png') no-repeat center center;
+        background-size: contain;
         .headline {
     font-size: 1.5rem;
 }
@@ -136,7 +121,7 @@ p {
     padding: 0;
     margin: 20px 0;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
