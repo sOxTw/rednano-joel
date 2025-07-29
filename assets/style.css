@@ -290,7 +290,7 @@ p {
   border-radius: 10px;
 }
 
-.lightbox {
+/* .lightbox {
   display: none;
   position: fixed;
   z-index: 1000;
@@ -308,6 +308,26 @@ p {
   max-height: 92%;
   border-radius: 10px;
   box-shadow: 0 0 10px #771188;
+} */
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro */
+    display: flex; /* Para centrar el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    z-index: 1000; /* Asegura que esté por encima de todo */
+    display: none; /* Oculto por defecto, se cambia con JS */
+}
+
+.lightbox img {
+    max-width: 90%; /* Ajusta el tamaño máximo de la imagen ampliada */
+    max-height: 90vh; /* Ajusta la altura máxima */
+    object-fit: contain; /* Asegura que la imagen se vea completa */
 }
 
 .lightbox .cerrar {
