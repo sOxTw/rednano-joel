@@ -68,25 +68,35 @@ p {
     margin-right:5px;
 }
 
-@media(max-width:768px){
-    body,html {
+@media(max-width:768px) {
+    body,html 
+    {
+        display: flex;
         background: url('./img/logo-nano.png') no-repeat center center;
         background-size: contain;
-        .headline {
-    font-size: 1.5rem;
-}
-.lista-beneficios {
-    font-size: 0.95rem;
-    text-align: center;
-}
-.boton-whatsapp {
-    font-size: 1rem;
-    padding: 14px 22px;
-}
-
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
     }
 
-    .lista-beneficios {
+    .headline
+    {
+        font-size: 1.5rem;
+    }
+    .lista-beneficios
+    {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .boton-whatsapp
+    {
+        font-size: 1rem;
+        padding: 14px 22px;
+    }
+
+    .lista-beneficios 
+    {
         text-align: center !important;
     }
 }
@@ -213,15 +223,6 @@ p {
     0 0 1px #d44de7,
     0 0 2px #d44de7,
     0 0 10px #d44de7
-}
-
-@media(min-width: 769px) {
-  body, html {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
 }
 
 .seccion-premios {
