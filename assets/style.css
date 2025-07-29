@@ -338,6 +338,9 @@ p {
   color: white;
   cursor: pointer;
   z-index: 1001;
+  border-radius: 50%;
+  width: 39px;
+  background-color: rgb(156, 10, 10);
 }
 
 body::after {
