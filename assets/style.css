@@ -21,7 +21,9 @@ body::before {
 }
 
 .contenedor {
-    background-color: rgba(20, 20, 20, 0.95); /* ← Fondo oscuro */
+    /* background-color: rgba(20, 20, 20, 0.95); ← Fondo oscuro */
+    background: #620d63;
+    background: linear-gradient(90deg, rgba(98, 13, 99, 1) 0%, rgba(79, 53, 130, 1) 50%, rgba(59, 23, 130, 1) 100%);
     color: #fff;
     padding:25px;
     border-radius:10px;
